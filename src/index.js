@@ -54,9 +54,9 @@ function AppHooks() {
       case 3:
         return <span>😻😻😻</span>;
       case 4:
-        return <span>😻😻😻 </span>;
+        return <span>😻😻😻😻 </span>;
       case 5:
-        return <span>😻😻😻 </span>;
+        return <span>😻😻😻😻😻 </span>;
 
       default:
         return <span>😻 </span>;
@@ -186,8 +186,8 @@ function AppHooks() {
                       <h2>Character </h2> {post.temperament}
                       <h2>Description </h2>
                       {post.description}
-                      <h2>Stranger Friendly (5/5)</h2>
-                      {project(post.energy_level)}
+                      <h2>Social Needs (5/5)</h2>
+                      {project(post.social_needs)}
                       <h2>Lifespan </h2> {post.life_span}
                       <h2>Social status </h2> {post.social_needs}
                     </div>
